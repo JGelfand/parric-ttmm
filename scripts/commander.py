@@ -244,6 +244,7 @@ def main_rec(level, parent, partitions, path_prefix, keep, iterations):
     global master_cube_N
     
     if level >= iterations:
+        print("Endpoint: ", cube.c)
         return
     
     results={}
