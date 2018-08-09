@@ -14,5 +14,5 @@
 #   
 # we could either put all of this into one big test script OR individual scripts and define individual steps in the jenkins file
 
-echo 'I did nothing'
+echo 'I did nothing'> /usr/bin/pentration_test.txt
 
